@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.menu-bar{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+
+}
+.menu-bar>ul>li{
+    padding: 5px;
+    transition: all .5s;
+}
+.menu-bar>ul>li:hover{
+    background-color: rgb(65, 65, 65);
+    padding: 5px;
+}
+.menu-bar>ul>li:hover>a{
+    color: white;
+}
+.menu-bar>ul{
+    margin-left: 6vw;
+    display: inline-flex;
+    align-items: center;
+    list-style: none;
+    justify-content: space-around;
+    width: 70vw;
+}
+.menu-bar a{
+    text-decoration: none;
+    color: black;
+}
+.sub-menu1{
+    display: none;
+
+    
+}
+.menu-bar li:hover .sub-menu1{
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    z-index: 999;
+    width: 80%;
+    height: 17vh;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+
+}
+.menu-bar li:hover .sub-menu1 ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.menu-bar li:hover .sub-menu1 ul div{
+    display: flex;
+    list-style: none;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+}
+.menu-bar li:hover .sub-menu1 div>div{
+    display: flex;
+    width: 80%;
+}
+.menu-bar li:hover .sub-menu1 div li{
+    padding: 7px;
+    
+}
+.menu-bar li:hover .sub-menu1 div li:hover{
+    background-color: rgb(202, 201, 201);
+}
+.sub-menu2{
+    display: none;
+}
+.menu-bar li:hover .sub-menu2{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    position: absolute;
+    z-index: 999;
+    padding: 20px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    gap:20px 20px;
+}
+.head{
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+.sub-menu3{
+    display: none;
+}
+.menu-bar li:hover .sub-menu3{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    position: absolute;
+    z-index: 999;
+    padding: 20px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    gap:20px 20px;
+}
+.sub-menu4{
+    display: none;
+}
+.menu-bar li:hover .sub-menu4{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    position: absolute;
+    z-index: 999;
+    padding: 20px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    gap: 20px 20px;
+}
+.menu-bar li:hover .sub-menu4 img{
+    width: 100%;
+}
+.menu-bar li:hover .sub-menu4 div{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    cursor: pointer;
+}
+.menu-bar li:hover .sub-menu4 p{
+    padding: 8px 0;
+    font-weight: 700;
+    transition: all .5s;
+}
+.menu-bar li:hover .sub-menu4 div:hover{
+    transform: translateY(-5px);
+}

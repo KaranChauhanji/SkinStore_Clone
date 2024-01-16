@@ -1,0 +1,40 @@
+
+.top{
+    background-color: #F2F2F2;
+    padding: 4px;
+    align-items: center;
+}
+.top>ul{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    /* border: 1px solid black; */
+    width: 96%;
+
+}
+.top>ul>li{
+    display: flex;
+    margin:0 12px;
+    align-items: center;
+
+}
+.top li span{
+    margin-left: 12px;
+}
+.top a{
+    text-decoration: none;
+    color: black;
+}
+
+.top>ul>li img{
+    width: 100%;
+}
+.top>ul>li div{
+    width: 18px;
+}
+.logo{
+    height: 58px;
+}
+.logo>image{
+    width: 100%;
+}
