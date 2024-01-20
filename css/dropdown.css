@@ -2,9 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-.menu-bar{
-    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    font-family: "Lato-Regular",Helvetica,Arial,sans-serif;
 
 }
 .menu-bar>ul>li{
@@ -37,10 +35,14 @@
 }
 .menu-bar li:hover .sub-menu1{
     display: flex;
+    background-color: white;
     padding: 20px;
     align-items: center;
     justify-content: center;
     position: absolute;
+    left: 7.6%;
+    width: 80%;
+    margin-top: 6px;
     z-index: 999;
     width: 80%;
     height: 17vh;
@@ -76,11 +78,15 @@
 }
 .menu-bar li:hover .sub-menu2{
     display: grid;
+    background-color: white;
     grid-template-columns: repeat(5,1fr);
     position: absolute;
     z-index: 999;
+    left: 7.6%;
+    width: 80%;
     padding: 20px;
-    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    margin-top: 6px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 0px 8px 0px;
     gap:20px 20px;
 }
 .head{
@@ -92,24 +98,34 @@
 }
 .menu-bar li:hover .sub-menu3{
     display: grid;
+    left: 7.6%;
+    background-color: white;
+    width: 80%;
     grid-template-columns: repeat(4,1fr);
     position: absolute;
     z-index: 999;
     padding: 20px;
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
     gap:20px 20px;
+    margin-top: 6px;
+
 }
 .sub-menu4{
     display: none;
 }
 .menu-bar li:hover .sub-menu4{
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(5,1fr);
+    background-color: white;
     position: absolute;
     z-index: 999;
+    left: 7.6%;
+    width: 80%;
     padding: 20px;
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
     gap: 20px 20px;
+    margin-top: 6px;
+
 }
 .menu-bar li:hover .sub-menu4 img{
     width: 100%;

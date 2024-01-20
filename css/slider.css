@@ -1,0 +1,30 @@
+.slider{
+    width: 100%;
+    text-align: center;
+}
+.slider>div{ 
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 3px solid black; */
+    
+}
+.slider>div>div{
+    /* border: 2px solid red;  */
+     width: 85%; 
+ } 
+ .slider>div>div img{ 
+     width: 100%; 
+ } 
+#prev,#next{
+    border: none;
+    outline: none;
+    padding: 12px;
+    background-color: rgba(0,0,0,0.2);
+    text-align: center;
+    margin: 0 12px;
+    cursor: pointer;
+    border-radius: 5px;
+}
