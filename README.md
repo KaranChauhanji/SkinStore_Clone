@@ -57,13 +57,11 @@ Explore a wide range of skincare products on the multi-product page. The page in
 ### 4. Single Product Page 🌟
 Dive into detailed information about a specific product on the single product page. Get insights into product details, pricing, and customer reviews.
 
-![Alt Text](https://github.com/KaranChauhanji/SkinStore_Clone/blob/main/images/ss6.jpg?raw=true)
+![Alt Text](https://github.com/KaranChauhanji/SkinStore_Clone/blob/main/images/ss6.png?raw=true)
 
 
 ### 5. Cart Page 🛒
 The cart page allows users to review and manage their selected products before proceeding to checkout. Users can add or remove items, adjust quantities, and see the total cost.
-
-[//]: # (Include a screenshot of the Cart Page here, like: ![Cart Page](path/to/cart_page_screenshot.png))
 
 ### 6. Beautiful CSS and Hovering Effects ✨
 The project features aesthetically pleasing CSS styles and hovering effects, enhancing the overall visual appeal of the website.
