@@ -21,7 +21,7 @@ Welcome to the Skinstore project, a web application designed to provide a seamle
      Hover Effect
      Dropdown Menu 
 
- ## 2. Vishal Sonkar -
+ ## 2. Vishal Sarak -
      Pages 📃 - 
      Login Page
      Signup Page
