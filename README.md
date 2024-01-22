@@ -41,23 +41,23 @@ Welcome to the Skinstore project, a web application designed to provide a seamle
 ### 1. Home Page 🏡
 The home page serves as the entry point for users, providing an overview of featured skincare products, promotions, and other relevant information.
 
-![Alt Text](images\ss1.jpg)
+![Alt Text](https://github.com/KaranChauhanji/SkinStore_Clone/blob/main/images/ss1.jpg?raw=true)
 
 ### 2. Login/Signup Page 🌐
 Users can create accounts or log in to existing ones. This feature ensures a personalized experience, enabling users to track their orders and preferences.
 
-![Alt Text](images\ss5.jpg)
-![Alt Text](images\ss3.jpg)
+![Alt Text](https://github.com/KaranChauhanji/SkinStore_Clone/blob/main/images/ss5.jpg?raw=true)
+![Alt Text](https://github.com/KaranChauhanji/SkinStore_Clone/blob/main/images/ss3.jpg?raw=true)
 
 ### 3. Multi-Product Page 🛍️
 Explore a wide range of skincare products on the multi-product page. The page includes sorting and filtering functionalities, allowing users to easily find the products that suit their needs.
 
-![Alt Text](images\ss2.jpg)
+![Alt Text](https://github.com/KaranChauhanji/SkinStore_Clone/blob/main/images/ss2.jpg?raw=true)
 
 ### 4. Single Product Page 🌟
 Dive into detailed information about a specific product on the single product page. Get insights into product details, pricing, and customer reviews.
 
-![Alt Text](images\ss6.png)
+![Alt Text](https://github.com/KaranChauhanji/SkinStore_Clone/blob/main/images/ss6.jpg?raw=true)
 
 
 ### 5. Cart Page 🛒
