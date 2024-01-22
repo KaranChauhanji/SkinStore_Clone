@@ -1,0 +1,79 @@
+.result , .filter{
+    width: 90%;
+    margin: 4% auto;
+}
+.result h1{
+    font-family: "Lato-Regular",Helvetica,Arial,sans-serif;
+    font-size: 42px;
+    line-height: 1.4; 
+    font-weight: 700;
+    color:#333;
+}
+.result p{
+    font-size: 14px;
+    line-height: 1.4;
+    color: #2e3337;
+    font-weight: 300;
+    margin-bottom: 12px;
+}
+.filter button{
+   padding: 8px;
+   margin: 0 12px 0 0;
+   border: 1px solid rgba(0,0,0,0.4);
+   cursor: pointer;
+}
+.filter button:active{
+    scale: 0.9;
+}
+section{
+    text-align: center;
+    margin: 0 auto 6% auto;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 18px;
+    width: 90%;
+    align-items: center;
+
+}
+section>div{
+    padding: 12px;
+}
+section>div p:nth-child(2){
+    font-size: 15px;
+    margin-bottom: 12px;
+    font-weight: 600;
+}
+section>div p:nth-child(3){
+    padding: 8px;
+    border: 1px solid red;
+    margin-bottom: 12px;
+    color: #5c6063;
+}
+section>div span{
+    font-weight: 600;
+    color: rgb(173, 5, 5);
+}
+section>div>div{
+    margin-bottom: 12px;
+}
+section img{
+    width: 100%;
+}
+section button{
+    width: 100%;
+    font-size: 14px;
+    line-height: 1.4;
+    font-weight: 300;
+    line-height: 18px;
+    background-color: #333;
+    border-style: none;
+    padding: 12px;
+    color: #fff;
+    cursor: pointer;
+    transition: all .5s;
+    margin-top: 12px;
+}
+section button:hover{
+    background-color: rgb(0, 179, 255);
+    color:black ;
+}

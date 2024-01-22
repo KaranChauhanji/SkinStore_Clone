@@ -51,8 +51,6 @@ header{
     margin: auto;
     justify-content: space-around;
     border-bottom: 2px solid black;
-    
-   
 }
 .logo{
     width: 52%;
@@ -73,6 +71,10 @@ header{
     justify-content: flex-end;
     gap: 30%;
     cursor: pointer;
+}
+.user-actions a{
+    text-decoration: none;
+    color: black;
 }
 .user-actions div{
     width: 30px;

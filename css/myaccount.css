@@ -1,0 +1,184 @@
+
+.parent{
+    margin: 6% 0;
+}
+.parent>hr{
+    margin: 30px 0px;
+}
+.child1{
+    margin: 0 20px;
+}
+.child1 h1{
+    margin-bottom: 12px;
+}
+.child2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+    margin: 0px 20px;
+}
+.child2>div{
+   
+    /* border: 1px solid black; */
+    text-align: center;
+    /* padding: 20px; */
+    width: 30%;
+}
+
+.child2>div>div{
+    border: 1px solid #999;
+    padding: 30px;
+    /* padding-top: 0px; */
+
+}
+
+.child2>div>div>p{
+
+    margin-top: 0px;
+}
+.child2>div>div>div{
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    width: fit-content;
+}
+.child2>div>div>div>div{
+    margin: 20px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: fit-content;
+
+}
+.child2>div>div>div>div>h1{
+    
+    margin-top: 0px ;
+    margin-bottom: 3px;
+}
+
+.btn{
+
+    /* border: 1px solid black; */
+    padding-top: 10px;
+
+}
+
+.btn>button{
+    /* margin: 10px; */
+    padding: 10px;
+    background: black;
+    color: white;
+    border: none;
+}
+
+.child3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+.child3>h1{
+    margin: 0px 0px;
+}
+
+.child5{
+    text-align: center;
+}
+.gchild1{
+    border: 1px solid #999;
+    width: 20%;
+    margin: auto;
+}
+.gchild1>div{
+    background-color: #32c02a;
+    padding: 10px 0px;
+    margin-bottom: 15px;
+}
+
+.child5>div>p{
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
+
+
+.child5>div>svg{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 55px;
+    width: 55px;
+    /* pointer-events: none;
+    box-sizing: border-box;
+    fill: #333; */
+}
+
+.gchild2{
+    margin: 25px 0px;
+    padding: 0px 20px;
+    /* border: 1px solid #999; */
+    display: flex;
+    justify-content: space-between;
+
+}
+.gchild2>div{
+    padding: 25px 0px;
+    border: 1px solid #999;
+    width: 23%;
+}
+.gchild2>div>svg{
+    height: 55px;
+    width: 55px;
+}
+
+.gchild3{
+    width: 50%;
+    margin: auto;
+    padding: 25px 0px;
+    border: 1px solid #999;
+    display: flex;
+    justify-content: center;
+  
+}
+.gchild3>div>svg{
+    align-content: center;
+    margin: 20px 40px ;
+    height: 55px;
+    width: 55px;
+}
+.call{
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+
+}
+.call>span{
+    margin: 5px 0px;
+}
+
+.child6{
+    text-align: center;
+    padding: 0px 20px;
+}
+
+.child6>div{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px;
+}
+.child6>div>div{
+    border: 1px solid #999;
+    padding: 30px 0px;
+
+}
+
+.child6>div>div>svg{
+    height: 55px;
+    width: 55px;
+}
+h2{
+    margin-bottom: 20px;
+}
+h1{
+    margin-bottom: 20px;
+}
