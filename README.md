@@ -30,11 +30,6 @@ Welcome to the Skinstore project, a web application designed to provide a seamle
      Functionalities 🤖 -
      Login and signup Functionality
 
- ### 3. Vikaram Potekar
- ### 4. Sajid Siddiqui
-
-
-
 
 ## Features 🚀
 
